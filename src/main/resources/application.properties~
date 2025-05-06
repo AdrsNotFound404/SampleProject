@@ -1,6 +1,6 @@
 server.port=8081
 spring.application.name=hello-world
-server.servlet.context-path=/
+server.servlet.context-path=hello
 # Springboot 2.0 Actuator Config
 management.endpoints.web.base-path=/
 management.endpoints.web.exposure.include: metrics, health, info, configprops
